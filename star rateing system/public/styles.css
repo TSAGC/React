@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .rating {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .star {
+    font-size: 4rem; /* Make stars larger */
+    color: lightgray;
+    cursor: pointer;
+    transition: color 0.2s; /* Smooth color transition */
+  }
+  
+  .star.selected {
+    color: gold;
+  }
+  
